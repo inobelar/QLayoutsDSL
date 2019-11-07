@@ -26,9 +26,8 @@ Imaginary pseudo-code (inspired by [Flutter](https://flutter.dev/)):
 
 # Usage
 
-```c++
-#include <path/to/QLayoutsDSL/q_layouts_dsl.hpp>
-```
+1. In `*.pro` file add next line: `INCLUDEPATH += $${PWD}/path/to/QLayoutsDSL/`
+2. In code use: ```#include <QLayoutsDSL/q_layouts_dsl.hpp>```
 
 # Examples of usage
 
