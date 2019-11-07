@@ -38,7 +38,7 @@ Imaginary pseudo-code (inspired by [Flutter](https://flutter.dev/)):
 auto* layout = make<QVBoxLayout>(
     new QPushButton("Button1", this),
     new QPushButton("Button2", this),
-    new QLabel("Label3", this)
+    new QLabel     ("Label3", this)
 );
 ```
 
@@ -54,7 +54,7 @@ auto* layout = make<QVBoxLayout>(
         )
     ),
 
-    l_info( make<QHboxLayout>( Button5, LineEdit6 ), 3),
+    l_info( make<QHBoxLayout>( Button5, LineEdit6 ), 3),
     stretch(2),
     Button7,
     spacing(25)
