@@ -46,7 +46,7 @@ auto* layout = make<QVBoxLayout>(
 
 ```c++
 auto* layout = make<QVBoxLayout>(
-    make<QHboxLayout>(
+    make<QHBoxLayout>(
         Button1,
         make<QVBoxLayout>(
             Button2,
