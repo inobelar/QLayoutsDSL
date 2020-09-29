@@ -1,5 +1,11 @@
 # Qt Layouts DSL
 
+<p align="center">
+  <a href="http://hits.dwyl.com/inobelar/QLayoutsDSL">
+    <img title="HitCount" src="http://hits.dwyl.com/inobelar/QLayoutsDSL.svg"/>
+  </a>
+</p>
+
 C++ [DSL](https://en.wikipedia.org/wiki/Domain-specific_language) for making layouts (or filling existing) by items (other layouts or widgets)
 
 Single-header-only.
